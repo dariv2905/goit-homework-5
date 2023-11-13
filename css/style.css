@@ -665,4 +665,13 @@ align-items: baseline;}
     left: 50%;
     transform: translate(-50%,-50%);
  }
- 
+
+ .modal-close-button-icon
+  {stroke: #2E2F42;
+  }
+
+.modal-close-button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
