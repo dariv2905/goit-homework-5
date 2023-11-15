@@ -775,3 +775,12 @@ fill: #ffffff;
 
         .review-form-message:focus
 { border-color: #4D5AE5; }
+
+.user-privacy
+{color: var(--LIGHT-SLATE, #8E8F99);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.04em;
+    }
