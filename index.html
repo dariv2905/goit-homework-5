@@ -478,32 +478,43 @@
 <form class="review-form">
 <div class="review-form-field-wrapper">
     <label for="" class="review-form-field-label"> Name</label>
-    <input type="text" class="review-form-field">
+    <input type="text" class="review-form-field" name="user_first_name" id="user_first_name" required pattern="[a-zA-Za-яА-ЯіІїЇєЄґҐйЙʼ]+"
+    title="Dariia"
+    >
 </div>
 
 <div class="review-form-field-wrapper">
-    <label for="" class="review-form-field-label"></label>
-    <input type="text" class="review-form-field">
+    <label for="user-email" class="review-form-field-label">Email</label>
+    <input type="email" class="review-form-field"
+    name="user_email" id="user-email"
+    required
+    >
 </div>
 
 <div class="review-form-field-wrapper">
-    <label for="" class="review-form-field-label"></label>
-    <input type="text" class="review-form-field">
+    <label for="user-phone" class="review-form-field-label">Phone number</label>
+    <input type="tel" class="review-form-field"
+    name="user_phone_number" id="user-phone"
+    required
+    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+    title="xxx-xxx-xx-xx"
+    >
 </div>
 
 <div class="review-form-field-wrapper">
-    <label for="" class="review-form-field-label"></label>
-    <textarea name="" id="" class="review-form-message"></textarea>
+    <label for="user-comment" class="review-form-field-label">Comment</label>
+    <textarea
+     name="user_comment" id="user-comment" class="review-form-message"
+     placeholder="Enter text"></textarea>
 </div>
 
 <div class="review-form-checkbox-wrapper">
-    <input type="checkbox" class="review-form-checkbox">
+    <input type="checkbox" class="review-form-checkbox" name="user_policy" value="true" required id="user-policy">
     <label for="" class="review-form-checkbox-label">
         I accept the terms and conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a>
     </label>
 </div>
 <button class="review-form-button" type="submit">Send</button>
-
 </form>
     </div>
 
