@@ -463,8 +463,7 @@
         </div>
     </footer>
 
-<div class="backdrop">
-
+<div class="backdrop.is-open">
 
     <div class="modal">
 <button class="modal-close-button" type="button">
@@ -473,12 +472,12 @@
     </svg>
 </button>
 
-<p class="review-form-description">leave your contacts and we will call you back</p>
+<p class="review-form-description">Leave your contacts and we will call you back</p>
 
 <form class="review-form">
 <div class="review-form-field-wrapper">
-    <label for="" class="review-form-field-label"> Name</label>
-    <input type="text" class="review-form-field" name="user_first_name" id="user_first_name" required pattern="[a-zA-Za-яА-ЯіІїЇєЄґҐйЙʼ]+"
+    <label for="user-name" class="review-form-field-label"> Name</label>
+    <input type="text" class="review-form-field" name="user-name" id="user-name" required pattern="[a-zA-Za-яА-ЯіІїЇєЄґҐйЙʼ]+"
     title="Dariia"
     >
 </div>
@@ -492,7 +491,7 @@
 </div>
 
 <div class="review-form-field-wrapper">
-    <label for="user-phone" class="review-form-field-label">Phone number</label>
+    <label for="user-phone" class="review-form-field-label">Phone</label>
     <input type="tel" class="review-form-field"
     name="user_phone_number" id="user-phone"
     required
@@ -504,13 +503,13 @@
 <div class="review-form-field-wrapper">
     <label for="user-comment" class="review-form-field-label">Comment</label>
     <textarea
-     name="user_comment" id="user-comment" class="review-form-message"
-     placeholder="Enter text"></textarea>
+     name="user-comment" id="user-comment" class="review-form-message"
+     placeholder="Text input"></textarea>
 </div>
 
 <div class="review-form-checkbox-wrapper">
-    <input type="checkbox" class="review-form-checkbox" name="user_policy" value="true" required id="user-policy">
-    <label for="" class="review-form-checkbox-label">
+    <input type="checkbox" class="review-form-checkbox" name="user-privacy" value="true" required id="user-privacy">
+    <label for="user-privacy" class="review-form-checkbox-label">
         I accept the terms and conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a>
     </label>
 </div>
