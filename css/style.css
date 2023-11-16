@@ -771,7 +771,7 @@ fill: #ffffff;
             transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
          }
 
-        .review-form-message:focus
+ .review-form-message:focus
 { border-color: #4D5AE5; 
 }
 
@@ -796,4 +796,6 @@ fill: #ffffff;
  { position: relative;
  }
 
- 
+.review-form-field:focus + .review-form-field-icon
+ {fill: #4D5AE5;
+ }
