@@ -817,3 +817,19 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 
+.review-form-button
+  {border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5px;
+        letter-spacing: 0.04em;
+    display: block;
+min-width: 169px;
+height: 56px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
