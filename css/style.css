@@ -784,12 +784,13 @@ fill: #ffffff;
         fill: transparent;
     }
 
-    .review-form-field-icon
+ .review-form-field-icon
  {position: absolute;
     top: 50%;
         left: 16px;
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+
 
 .review-form-input-wrapper
  { position: relative;
@@ -848,7 +849,7 @@ margin-left: auto;
     margin-right: auto;
  }
 
- .input-checkbox:checked+.checkbox-svg .rewiew-form-own-checkbox-icon {
+ .input-checkbox:checked+.checkbox-svg .rewiew-form-own-checkbox-label {
      background-color: #404bbf;
      fill: #F4F4FD;
      border: none;
