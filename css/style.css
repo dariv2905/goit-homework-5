@@ -848,9 +848,8 @@ margin-right: auto;
 margin-left: auto;
   }
 
-.rewiew-form-checkbox:checked+
- .review-form-checkbox-label
- .rewiew-form-own-checkbox
+.input-checkbox:checked+
+ .checkbox-svg
 { background-color: #404bbf;
 fill: #F4F4FD;
 border: none; }
