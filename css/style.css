@@ -774,14 +774,14 @@ fill: #ffffff;
 { border-color: #4D5AE5; 
 }
 
-.user-privacy
+.review-form-checkbox-label
 {color: var(--LIGHT-SLATE, #8E8F99);
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.04em;
-    
+
     }
 
     .review-form-field-icon
@@ -809,4 +809,11 @@ fill: #ffffff;
             margin-bottom: 24px;
         }
 
-.user-privacy
+.user-privacy-span
+ {width: 16px;
+  height: 16px;
+border-radius: 2px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
