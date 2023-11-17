@@ -719,7 +719,7 @@ fill: #ffffff;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     width: 360px;
@@ -737,7 +737,7 @@ fill: #ffffff;
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
-        line-height: 1.17px;
+        line-height: 1.17;
         letter-spacing: 0.04em;
         margin-bottom: 4px;
  }
@@ -797,8 +797,11 @@ fill: #ffffff;
  { position: relative;
  }
 
-.review-form-field:focus + .review-form-field-icon
+.review-form-field:focus + .review-form-own-checkbox
  {fill: #4D5AE5;
+    background-color: #404bbf;
+    border: none;
+
  }
 
  .comment-field
@@ -842,11 +845,10 @@ margin-left: auto;
   }
 
 .rewiew-form-checkbox:checked+
- .review-form-own-checkbox
-{
- background-color: #404bbf;
+ .review-form-field-icon
+{ background-color: #404bbf;
 fill: #F4F4FD;
-border: none;  }
+border: none; }
 
 .privacy-policy-link
 {color: #4d5ae5;
@@ -859,3 +861,8 @@ border: none;  }
     fill: none;
     stroke: #111111;
     transition: stroke 250ms linear; }
+
+    .review-form-checkbox:focus
+        {
+            border-color: #4d5ae5;
+        }
