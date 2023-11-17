@@ -719,7 +719,7 @@ fill: #ffffff;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.17;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
     width: 360px;
@@ -797,12 +797,16 @@ fill: #ffffff;
  { position: relative;
  }
 
-.review-form-field:focus + .review-form-own-checkbox
- {fill: #4D5AE5;
-    background-color: #404bbf;
-    border: none;
-
+.review-form-field:focus 
+ {border-color: #4D5AE5;
  }
+
+
+.review-form-field:focus+
+.review-form-field-icon
+  {
+      fill: #4D5AE5;
+  }
 
  .comment-field
   {margin-bottom: 16px;
@@ -845,7 +849,8 @@ margin-left: auto;
   }
 
 .rewiew-form-checkbox:checked+
- .review-form-field-icon
+ .review-form-checkbox-label
+ .rewiew-form-own-checkbox
 { background-color: #404bbf;
 fill: #F4F4FD;
 border: none; }
