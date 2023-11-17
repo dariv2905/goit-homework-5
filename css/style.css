@@ -851,3 +851,12 @@ border: none;  }
 .privacy-policy-link
 {color: #4d5ae5;
     }
+
+
+.rewiew-form-own-checkbox-icon
+{position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: none;
+    stroke: #111111;
+    transition: stroke 250ms linear; }
