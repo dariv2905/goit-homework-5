@@ -752,8 +752,7 @@ fill: #ffffff;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-   .review-form-field:focus
-  {border-color: #4D5AE5; }
+
 
     .review-form-message
          {width: 100%;
@@ -782,6 +781,7 @@ fill: #ffffff;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.04em;
+    
     }
 
     .review-form-field-icon
@@ -799,3 +799,14 @@ fill: #ffffff;
 .review-form-field:focus + .review-form-field-icon
  {fill: #4D5AE5;
  }
+
+ .comment-field
+  {margin-bottom: 16px;
+  }
+
+  .user-privacy-field
+        {
+            margin-bottom: 24px;
+        }
+
+.user-privacy
