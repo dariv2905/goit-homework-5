@@ -845,11 +845,12 @@ margin-left: auto;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    margin-left: auto;
-    margin-right: auto;
  }
 
- .input-checkbox:checked+.checkbox-svg .rewiew-form-own-checkbox-label {
+ .input-checkbox:checked +
+ .rewiew-form-checkbox-label
+ .checkbox-svg
+ {
      background-color: #404bbf;
      fill: #F4F4FD;
      border: none;
@@ -858,3 +859,12 @@ margin-left: auto;
  .review-form-field:focus {
      border-color: #4d5ae5;
  }
+
+
+.input-checkbox
+ {border: 1px solid rgba(46, 47, 66, 0.4);
+      border-radius: 4px;
+      background-color: transparent;
+      outline: transparent;
+      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
