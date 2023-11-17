@@ -848,8 +848,9 @@ margin-right: auto;
 margin-left: auto;
   }
 
-.input-checkbox:checked +
- .checkbox-svg
+.input-checkbox:checked 
++ .checkbox-svg
+ .review-form-field-label
 { background-color: #404bbf;
 fill: #F4F4FD;
 border: none; }
