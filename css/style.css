@@ -834,8 +834,8 @@ margin-left: auto;
 .privacy-policy-link
 {color: #4d5ae5; }
 
-.checkbox-svg
- {width: 16px;
+.checkbox-svg {
+    width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
@@ -845,15 +845,8 @@ margin-left: auto;
     fill: transparent;
     display: inline-flex;
     cursor: pointer;
- }
+}
 
- .input-checkbox:checked+
- .rewiew-form-checkbox-label
- .checkbox-svg
- {background-color: #404bbf;
-fill: #F4F4FD;
-border: none;
- }
 
  .review-form-field:focus {
      border-color: #4d5ae5;
@@ -917,3 +910,22 @@ color: #ffffff;
   {margin-left: 16px;
   }
 
+.footer-form
+  {
+      margin-left: 80px;
+  }
+
+
+ .input-checkbox:checked+.rewiew-form-checkbox-label .checkbox-svg {
+     background-color: #404bbf;
+     fill: #F4F4FD;
+     border: none;
+ }
+
+
+ .input-checkbox:checked+
+ .review-form-checkbox-label 
+ .checkbox-svg {
+     background-color: #404bbf;
+     fill: #F4F4FD;
+     border: none;}
